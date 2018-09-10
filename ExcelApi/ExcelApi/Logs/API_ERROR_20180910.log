@@ -1,0 +1,84 @@
+
+------BEGIN----------------------------2018-09-10 15:59:35------------------------------
+{
+  "apiName": "exportTableToExcel",
+  "para": null,
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonReaderException",
+    "Message": "Error reading JObject from JsonReader. Current JsonReader item is not an object: StartArray. Path '', line 1, position 1.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json)\r\n   在 ExcelApi.Controllers.ExcelController.exportTableToExcel(String tableCode, String param) 位置 E:\\GitHub\\csharp\\TableToReportExcel\\ExcelApi\\ExcelApi\\Controllers\\ExcelController.cs:行号 89",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": "8\nLoad\nNewtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed\nNewtonsoft.Json.Linq.JObject\nNewtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)",
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+}
+------END-----------------------------------------------------------------------------
+
+------BEGIN----------------------------2018-09-10 15:59:39------------------------------
+{
+  "apiName": "exportTableToExcel",
+  "para": null,
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonReaderException",
+    "Message": "Error reading JObject from JsonReader. Current JsonReader item is not an object: StartArray. Path '', line 1, position 1.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json)\r\n   在 ExcelApi.Controllers.ExcelController.exportTableToExcel(String tableCode, String param) 位置 E:\\GitHub\\csharp\\TableToReportExcel\\ExcelApi\\ExcelApi\\Controllers\\ExcelController.cs:行号 89",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": "8\nLoad\nNewtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed\nNewtonsoft.Json.Linq.JObject\nNewtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)",
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+}
+------END-----------------------------------------------------------------------------
+
+------BEGIN----------------------------2018-09-10 16:00:31------------------------------
+{
+  "apiName": "exportTableToExcel",
+  "para": null,
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonReaderException",
+    "Message": "Error reading JObject from JsonReader. Current JsonReader item is not an object: StartArray. Path '', line 1, position 1.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json)\r\n   在 ExcelApi.Controllers.ExcelController.exportTableToExcel(String tableCode, String param) 位置 E:\\GitHub\\csharp\\TableToReportExcel\\ExcelApi\\ExcelApi\\Controllers\\ExcelController.cs:行号 89",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": "8\nLoad\nNewtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed\nNewtonsoft.Json.Linq.JObject\nNewtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)",
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+}
+------END-----------------------------------------------------------------------------
+
+------BEGIN----------------------------2018-09-10 16:01:24------------------------------
+{
+  "apiName": "exportTableToExcel",
+  "para": null,
+  "ex": {
+    "ClassName": "Newtonsoft.Json.JsonReaderException",
+    "Message": "Error reading JObject from JsonReader. Current JsonReader item is not an object: StartArray. Path '', line 1, position 1.",
+    "Data": null,
+    "InnerException": null,
+    "HelpURL": null,
+    "StackTraceString": "   在 Newtonsoft.Json.Linq.JObject.Load(JsonReader reader, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json, JsonLoadSettings settings)\r\n   在 Newtonsoft.Json.Linq.JObject.Parse(String json)\r\n   在 ExcelApi.Controllers.ExcelController.exportTableToExcel(String tableCode, String param) 位置 E:\\GitHub\\csharp\\TableToReportExcel\\ExcelApi\\ExcelApi\\Controllers\\ExcelController.cs:行号 89",
+    "RemoteStackTraceString": null,
+    "RemoteStackIndex": 0,
+    "ExceptionMethod": "8\nLoad\nNewtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed\nNewtonsoft.Json.Linq.JObject\nNewtonsoft.Json.Linq.JObject Load(Newtonsoft.Json.JsonReader, Newtonsoft.Json.Linq.JsonLoadSettings)",
+    "HResult": -2146233088,
+    "Source": "Newtonsoft.Json",
+    "WatsonBuckets": null
+  }
+}
+------END-----------------------------------------------------------------------------

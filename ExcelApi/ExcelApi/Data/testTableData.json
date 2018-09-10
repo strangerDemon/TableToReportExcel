@@ -1461,7 +1461,7 @@
       "BBB_typeArea": 79.885
     }
   ],
-  "multsSheet": [
+  "multsSheet": 
     {
       "sheet1": [],
       "sheet2": [
@@ -1533,5 +1533,4 @@
         }
       ]
     }
-  ]
 }
