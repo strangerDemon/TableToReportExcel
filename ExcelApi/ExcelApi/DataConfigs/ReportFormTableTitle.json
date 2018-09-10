@@ -1,0 +1,395 @@
+{
+  //复杂表头合并单元
+  "complexTitle": {
+    "label": "复杂表头合并单元Table",
+    "code": "complexTitle",
+    "type": "json",
+    "method": "complexTitle",
+    "tableDeep": 4,
+    "titleList": [
+      {
+        "code": "XH",
+        "label": "序号",
+        "width": 100,
+        "merge": "row"
+      },
+      {
+        "code": "pqzhbsm",
+        "label": "片区/组合编号",
+        "width": 200,
+        "merge": "row"
+      },
+      {
+        "code": "pqzhmc",
+        "label": "片区/组合名称",
+        "width": 200,
+        "merge": "row"
+      },
+      {
+        "code": "bsm",
+        "label": "地块编号",
+        "width": 200,
+        "merge": "row"
+      },
+      {
+        "code": "bsmc",
+        "label": "地块名称",
+        "width": 200,
+        "merge": "row"
+      },
+      {
+        "code": "area",
+        "label": "地块面积",
+        "width": 200,
+        "isNumber": true,
+        "merge": "row"
+      },
+      {
+        "code": "type_childrenB",
+        "label": "大类",
+        "width": 500,
+        "children": [
+          {
+            "code": "B_XH",
+            "label": "序号",
+            "width": 100,
+            "merge": "row"
+          },
+          {
+            "code": "B_typeCode",
+            "label": "规划代码",
+            "width": 200,
+            "merge": "row"
+          },
+          {
+            "code": "B_typeName",
+            "label": "规划名称",
+            "width": 200,
+            "merge": "row"
+          },
+          {
+            "code": "B_typeArea",
+            "label": "规划面积",
+            "width": 200,
+            "isNumber": true,
+            "merge": "row"
+          },
+          {
+            "code": "type_childrenBB",
+            "label": "中类",
+            "width": 500,
+            "children": [
+              {
+                "code": "BB_XH",
+                "label": "序号",
+                "width": 100,
+                "merge": "row"
+              },
+              {
+                "code": "BB_typeCode",
+                "label": "规划代码",
+                "width": 200,
+                "merge": "row"
+              },
+              {
+                "code": "BB_typeName",
+                "label": "规划名称",
+                "width": 200,
+                "merge": "row"
+              },
+              {
+                "code": "BB_typeArea",
+                "label": "规划面积",
+                "width": 200,
+                "isNumber": true,
+                "merge": "row"
+              },
+              {
+                "code": "type_childrenBBB",
+                "label": "小类",
+                "width": 500,
+                "children": [
+                  {
+                    "code": "BBB_XH",
+                    "label": "序号",
+                    "width": 100
+                  },
+                  {
+                    "code": "BBB_typeCode",
+                    "label": "规划代码",
+                    "width": 200
+                  },
+                  {
+                    "code": "BBB_typeName",
+                    "label": "规划名称",
+                    "width": 200
+                  },
+                  {
+                    "code": "BBB_typeArea",
+                    "label": "规划面积",
+                    "isNumber": true,
+                    "width": 200
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  //多个sheet
+  "multsSheet": {
+    "label": "多个sheet Table",
+    "code": "multsSheet",
+    "type": "json",
+    "method": "multsSheet",
+    "isSheet": true,
+    "titleList": [
+      {
+        "code": "sheet1",
+        "label": "sheet1",
+        "list": [
+          {
+            "code": "xmmc",
+            "label": "项目名称",
+            "width": 200
+          },
+          {
+            "code": "jhjdmj",
+            "label": "计划交地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "jsmj",
+            "label": "建设用地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "jzmj",
+            "label": "居住用地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "syfwyssmj",
+            "label": "商业服务设置用地",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "wlccmj",
+            "label": "物流仓储用地",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "ggssmj",
+            "label": "公共设施用地",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "fjsydmj",
+            "label": "非建设用地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "ggglggfwmj",
+            "label": "公共管理与公共服务用地",
+            "width": 200,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "gymj",
+            "label": "工业用地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "dljtssmj",
+            "label": "道路与交通设施用地",
+            "width": 175,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "ldgcmj",
+            "label": "绿地与广场用地",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          }
+        ]
+      },
+      {
+        "code": "sheet2",
+        "label": "sheet2",
+        "list": [
+          {
+            "code": "xmmc",
+            "label": "项目名称",
+            "width": 200
+          },
+          {
+            "code": "pwbljdmj",
+            "label": "批文办理阶段",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "sscbjdmj",
+            "label": "实施储备阶段",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "qqkfjdmj",
+            "label": "前期开发阶段",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "swcbjdmj",
+            "label": "实物储备阶段",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "cdlyjdmj",
+            "label": "储地利用阶段",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          }
+        ]
+      },
+      {
+        "code": "sheet3",
+        "label": "sheet3",
+        "list": [
+          {
+            "code": "ghlb",
+            "label": "规划类别",
+            "width": 125,
+            "align": "center"
+          },
+          {
+            "code": "jzmj",
+            "label": "居住用地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "syfwyssmj",
+            "label": "商业服务设置用地",
+            "width": 175,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "wlccmj",
+            "label": "物流仓储用地",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "ggssmj",
+            "label": "公共设施用地",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "fjsydmj",
+            "label": "非建设用地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "ggglggfwmj",
+            "label": "公共管理与公共服务用地",
+            "width": 200,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "gymj",
+            "label": "工业用地",
+            "width": 125,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "dljtssmj",
+            "label": "道路与交通设施用地",
+            "width": 200,
+            "isNumber": true,
+            "align": "right"
+          },
+          {
+            "code": "ldgcmj",
+            "label": "绿地与广场用地",
+            "width": 150,
+            "isNumber": true,
+            "align": "right"
+          }
+        ]
+      },
+      {
+        "code": "sheet4",
+        "label": "sheet4",
+        "list": [
+          {
+            "code": "xmmc",
+            "label": "项目名称",
+            "width": 200
+          },
+          {
+            "code": "pwlx",
+            "label": "批文类型",
+            "width": 200,
+            "align": "center"
+          },
+          {
+            "code": "pwwh",
+            "label": "批文文号",
+            "width": 200
+          },
+          {
+            "code": "pwsj",
+            "label": "批文时间",
+            "width": 200,
+            "align": "center"
+          },
+          {
+            "code": "pwmj",
+            "label": "批文面积",
+            "width": 200,
+            "isNumber": true,
+            "align": "right"
+          }
+        ]
+      }
+    ]
+  }
+}
